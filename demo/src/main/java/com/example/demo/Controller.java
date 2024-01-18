@@ -20,9 +20,10 @@ public class Controller {
     }
 
     // Retrieve all customers
-    @GetMapping("/all")
-    public List<Customer> getAllCustomers() {
-        return customerList;
+    @GetMapping("/hello")
+    public String getHelloWorld() {
+
+        return "yes it works!";
     }
 
     // Retrieve a specific customer by ID
