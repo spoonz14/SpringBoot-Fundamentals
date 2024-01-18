@@ -8,6 +8,8 @@ import java.util.Optional;
 
 @RestController
 public class Controller {
+
+    // Retrieve all customers
     private List<Customer> customerList = new ArrayList<>();
     private int customerIdCounter = 1;
 
